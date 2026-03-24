@@ -117,7 +117,7 @@ const ServicesSection = () => {
         <div className="max-w-3xl mx-auto">
           <h3 className="font-display text-3xl font-bold text-center mb-4">Why outsource?</h3>
           <p className="text-muted-foreground text-center mb-12 max-w-lg mx-auto">
-            You get what you pay for with a cheap hire. With us, you get experience, a track record, and a full team.
+            Over 60% of small to mid-size businesses — and even large enterprises — partner with agencies for some or all of their marketing functions. You should too.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Agency Card */}
