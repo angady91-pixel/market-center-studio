@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   "AI & CRM Automations",
@@ -14,6 +15,7 @@ const services = [
   "Social Media",
   "Content Production",
   "DEI & Ethical Marketing",
+  "Event Marketing",
 ];
 
 const Navbar = () => {
@@ -76,9 +78,9 @@ const Navbar = () => {
           <button onClick={() => scrollTo("work")} className="text-muted-foreground hover:text-foreground transition-colors">
             Work
           </button>
-          <button onClick={() => scrollTo("insider")} className="text-muted-foreground hover:text-foreground transition-colors">
+          <Link to="/insider" className="text-muted-foreground hover:text-foreground transition-colors">
             Market Insider
-          </button>
+          </Link>
           <button
             onClick={() => scrollTo("contact")}
             className="bg-accent text-accent-foreground px-4 py-1.5 rounded-full text-sm font-medium hover:bg-accent/90 transition-colors"
