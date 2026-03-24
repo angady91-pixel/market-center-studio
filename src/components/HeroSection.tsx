@@ -17,10 +17,7 @@ const HeroSection = () => {
         </h1>
         <div className="w-full max-w-2xl mx-auto h-px bg-foreground/20 mb-8" />
         <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto leading-relaxed font-light">
-          Your full-service marketing department — without the overhead.
-        </p>
-        <p className="text-muted-foreground/60 text-sm max-w-md mx-auto mt-6 leading-relaxed">
-          Over 60% of small to mid-size businesses — and even large enterprises — partner with agencies for some or all of their marketing functions. You should too.
+          Your search is over. A full-service marketing department — without the overhead.
         </p>
       </div>
 
